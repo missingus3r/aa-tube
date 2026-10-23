@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="horizontal">
+
+    <org.mozilla.geckoview.GeckoView
+        android:id="@+id/gecko"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <!-- La pantalla del auto es ancha y baja: los controles van en una columna al costado. -->
+    <LinearLayout
+        android:layout_width="56dp"
+        android:layout_height="match_parent"
+        android:background="#202124"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/rewind"
+            style="@style/CarButton"
+            android:contentDescription="Atrás 10 segundos"
+            android:src="@drawable/ic_rewind" />
+
+        <Button
+            android:id="@+id/toggle"
+            style="@style/CarButton"
+            android:text="⏯" />
+
+        <ImageButton
+            android:id="@+id/forward"
+            style="@style/CarButton"
+            android:contentDescription="Adelante 10 segundos"
+            android:src="@drawable/ic_forward" />
+
+        <Button
+            android:id="@+id/fullscreen"
+            style="@style/CarButton"
+            android:text="⛶" />
+
+        <ImageButton
+            android:id="@+id/reload"
+            style="@style/CarButton"
+            android:contentDescription="Recargar"
+            android:src="@drawable/ic_refresh" />
+    </LinearLayout>
+</LinearLayout>

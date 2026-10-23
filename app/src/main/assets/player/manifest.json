@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "AA Tube player",
+  "version": "1.0",
+  "browser_specific_settings": {
+    "gecko": { "id": "player@aatube" }
+  },
+  "permissions": ["nativeMessaging", "nativeMessagingFromContent", "geckoViewAddons"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
