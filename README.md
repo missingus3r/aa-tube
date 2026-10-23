@@ -48,7 +48,8 @@ YouTube en la pantalla de Android Auto, con tu cuenta de Google, para ver videos
 |---|---|
 | Peugeot 208 | 2025 |
 
-Si la probaste en otro auto, abrí un issue o un PR para sumarlo a la lista.
+**¿Te sirvió el repo?** Hacé un PR y agregá tu modelo de auto (y el año) a esta tabla, así otros
+saben en qué autos funciona.
 
 ## Probar sin auto
 
