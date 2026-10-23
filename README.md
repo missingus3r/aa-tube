@@ -42,6 +42,16 @@ YouTube en la pantalla de Android Auto, con tu cuenta de Google, para ver videos
 5. En el auto, AA Tube aparece en el lanzador de Android Auto (si no, agregarla desde
    Android Auto → Personalizar selector).
 
+## Autos confirmados
+
+| Auto | Año |
+|---|---|
+| Peugeot 208 | 2025 |
+
+Si la probaste en otro auto, abrí un issue o un PR para sumarlo a la lista.
+
+## Probar sin auto
+
 Para probar sin auto se puede usar el
 [Desktop Head Unit](https://developer.android.com/training/cars/testing/dhu) del SDK.
 
