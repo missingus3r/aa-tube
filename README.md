@@ -7,6 +7,11 @@ YouTube en la pantalla de Android Auto, con tu cuenta de Google, para ver videos
 > Hermano: **[AA Disney](https://github.com/missingus3r/aa-disney)** (Disney+ en Android Auto), hecho a
 > partir de este mismo código.
 
+> [!IMPORTANT]
+> **Para que funcione hay que activar "Fuentes desconocidas" en el modo desarrollador de Android Auto.**
+> Android Auto no muestra apps que no se instalaron desde Google Play si esa opción está apagada.
+> Ver [Activar fuentes desconocidas](#activar-fuentes-desconocidas) (son 2 minutos).
+
 ## Qué hace
 
 - Muestra `m.youtube.com` en la pantalla del auto: tocás, deslizás, buscás y abrís videos como en el
@@ -38,11 +43,24 @@ YouTube en la pantalla de Android Auto, con tu cuenta de Google, para ver videos
 
 1. Compilar: `./gradlew assembleDebug` (queda en `app/build/outputs/apk/debug/`).
 2. Instalar el APK en el teléfono (`adb install app-debug.apk`, o copiándolo).
-3. En el teléfono, en **Android Auto**: tocar varias veces "Versión" para activar el modo
-   desarrollador, y en ⋮ → Configuración para desarrolladores activar **Fuentes desconocidas**.
+3. Activar **Fuentes desconocidas** en Android Auto (ver [abajo](#activar-fuentes-desconocidas)).
 4. Abrir **AA Tube en el teléfono** e iniciar sesión en Google.
 5. En el auto, AA Tube aparece en el lanzador de Android Auto (si no, agregarla desde
    Android Auto → Personalizar selector).
+
+## Activar fuentes desconocidas
+
+Se hace una sola vez, en el teléfono, con el teléfono desconectado del auto:
+
+1. Abrir la configuración de **Android Auto**: Ajustes del teléfono → buscar "Android Auto" (suele estar
+   en Dispositivos conectados → Preferencias de conexión → Android Auto).
+2. Bajar hasta el final y tocar **Versión** unas 10 veces seguidas, hasta que aparezca
+   "¿Permitir la configuración de desarrollo?". Tocar **Aceptar**.
+3. Tocar el menú **⋮** (arriba a la derecha) → **Configuración para desarrolladores**.
+4. Bajar hasta **Fuentes desconocidas** y marcarla.
+5. Cerrar Android Auto y volver a conectar el teléfono al auto (o desconectar y reconectar el cable).
+
+Si después de eso la app no aparece en el auto, agregarla desde Android Auto → **Personalizar selector**.
 
 ## Autos confirmados
 
