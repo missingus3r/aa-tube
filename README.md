@@ -4,6 +4,8 @@ YouTube en la pantalla de Android Auto, con tu cuenta de Google, para ver videos
 *YouTube on the Android Auto screen, signed in with your Google account, for use while parked.*
 
 > Proyecto personal, no oficial. No está afiliado a Google, YouTube ni Android Auto.
+> Hermano: **[AA Disney](https://github.com/missingus3r/aa-disney)** (Disney+ en Android Auto), hecho a
+> partir de este mismo código.
 
 ## Qué hace
 
@@ -61,6 +63,10 @@ Para probar sin auto se puede usar el
 - Usala solo con el auto detenido. El bloqueo al manejar es de Android Auto y está ahí por seguridad.
 - Es una página web dentro de un navegador: si YouTube cambia su sitio, algunos controles pueden dejar
   de andar. El uso de YouTube queda sujeto a sus términos.
+
+## Ver también
+
+- [AA Disney](https://github.com/missingus3r/aa-disney): Disney+ en Android Auto.
 
 ## Tests
 
