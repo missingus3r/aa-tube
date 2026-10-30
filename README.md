@@ -67,6 +67,7 @@ Si después de eso la app no aparece en el auto, agregarla desde Android Auto �
 | Auto | Año |
 |---|---|
 | Peugeot 208 | 2025 |
+| Chevrolet Prisma | 2019 |
 
 **¿Te sirvió el repo?** Hacé un PR y agregá tu modelo de auto (y el año) a esta tabla, así otros
 saben en qué autos funciona.
